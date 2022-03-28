@@ -1,0 +1,48 @@
+.headerNav {
+    display: flex;
+
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.headerNav > div{
+margin-top: 1em;
+}
+
+.headerNav > div> ul {
+    display: flex;
+    list-style: none;
+    margin-right: 3em;
+}
+
+.headerNav > div> ul > li > a {
+    color: green;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.headerNav > div> a{
+    color: green;
+    text-decoration: none;
+}
+
+.headerNavLoginLinks {
+   justify-content: flex-end;
+   flex-grow: 2;
+}
+
+
+footer {
+    display: flex;
+    background: lightblue;
+    bottom: 0%;
+}
+
+footer > div {
+    margin: 3em;
+}
+
+.footerNavItems {
+    text-align: right;
+}
